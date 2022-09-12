@@ -1,0 +1,72 @@
+* {
+    font-family: 'Space Mono', monospace;
+    padding: 0;
+    margin: 0;
+    background-color: #03191E;
+    color: whitesmoke;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.display {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #ff0022
+}
+
+.playerO {
+    color: #4DAA57;
+}
+
+.hide {
+    display: none;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#reset {
+    background-color: whitesmoke;
+    color: black;
+    padding: 6px 25px ;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+
